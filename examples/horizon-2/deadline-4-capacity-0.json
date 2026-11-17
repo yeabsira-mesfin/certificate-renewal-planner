@@ -1,0 +1,38 @@
+{
+  "input": {
+    "horizon": 2,
+    "capacity": 0,
+    "blocked": [],
+    "records": [
+      {
+        "id": "gamma",
+        "earliest": 2,
+        "deadline": 5
+      },
+      {
+        "id": "beta",
+        "earliest": 2,
+        "deadline": 4
+      },
+      {
+        "id": "alpha",
+        "earliest": 1,
+        "deadline": 4
+      }
+    ]
+  },
+  "expected": [
+    {
+      "id": "alpha",
+      "day": null
+    },
+    {
+      "id": "beta",
+      "day": null
+    },
+    {
+      "id": "gamma",
+      "day": null
+    }
+  ]
+}
