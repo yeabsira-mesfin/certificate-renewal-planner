@@ -1,0 +1,40 @@
+{
+  "input": {
+    "horizon": 3,
+    "capacity": 2,
+    "blocked": [
+      3
+    ],
+    "records": [
+      {
+        "id": "gamma",
+        "earliest": 2,
+        "deadline": 5
+      },
+      {
+        "id": "beta",
+        "earliest": 2,
+        "deadline": 4
+      },
+      {
+        "id": "alpha",
+        "earliest": 1,
+        "deadline": 4
+      }
+    ]
+  },
+  "expected": [
+    {
+      "id": "alpha",
+      "day": 1
+    },
+    {
+      "id": "beta",
+      "day": 2
+    },
+    {
+      "id": "gamma",
+      "day": 2
+    }
+  ]
+}
